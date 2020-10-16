@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int N
+  int N;
 
   printf("Enter the number of elements:");
   scanf("%d", &N);
