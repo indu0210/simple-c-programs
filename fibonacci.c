@@ -21,7 +21,7 @@ int  main(void)
        printf("%d \n", firstNum);
        exit(1);
   }
-
+else{
   printf("%d %d ", firstNum, secondNum);
   for (i = 2; i < N; i++)
   {
@@ -36,5 +36,6 @@ int  main(void)
        }
        printf("%d ", nextNum);
   }
+}
   printf("\n");
 }
